@@ -16,6 +16,7 @@ body{
     color: var(--main-color);
     font-family: var(--font-title-family);
     font-weight: 400;
+    max-width: 100vw;
 }
 
 .initial__section{
@@ -277,5 +278,11 @@ body{
     .initial__section{
         height: 50%;
         padding-bottom: 13em;
+    }
+}
+@media screen and (max-width: 1200px){
+    .initial__section{
+        display: block;
+        background-image: none;
     }
 }
