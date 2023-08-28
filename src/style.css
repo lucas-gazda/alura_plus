@@ -23,7 +23,7 @@ body{
     grid-template-columns: 50% 50%;
     background-image: url("./img/Background.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100vw;
     height: 100vh;
     margin: auto;
 }
@@ -190,7 +190,7 @@ body{
     font-size: 0.75rem;
 }
 
-@media screen and (max-width: 927px){
+@media screen and (max-width: 950px){
 
     .initial__section{
         background-image: none;
@@ -276,5 +276,6 @@ body{
 @media screen and (max-height: 697px){
     .initial__section{
         height: 50%;
+        padding-bottom: 13em;
     }
 }
