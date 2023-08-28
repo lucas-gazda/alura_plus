@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+:root {
+    --main-color: #FFFF;
+    --font-title-family: sans-serif, Inter;
+    --button-background: #167BF7;
+}
+
+body{
+    background-color: #00030C;
+    color: var(--main-color);
+    font-family: var(--font-title-family);
+    font-weight: 400;
+}
+
+.initial__section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    margin: auto;
+}
+
+.initial__title {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.initial__section__content{
+    text-align: center;
+    margin: auto;
+}
+
+.alura__combo{
+    margin: 10% 0 4rem 0;
+}
+
+.button{
+    display: block;
+    width: 80%;
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: var(--font-title-family);
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.75rem auto;
+}
+
+.main__button{
+    background-color: #167BF7;
+    border: none;
+}
+
+.secondary__button:hover{
+    background-color: var(--main-color);
+    color: #00030C;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.alert__initial {
+    font-size: 0.75rem;
+    font-family: sans-serif, "Roboto";
+    color: #C0C0C0;
+}
+
+.second__section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.second__section__img {
+    margin: 0 auto;
+}
+
+.second__section__text{
+    font-family: var(--font-title-family);
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 500px;
+    color: #F9F9F9;
+}
+
+.second__title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.third__section {
+    margin: 10% auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.third__section__content {
+    max-width: 60%;
+    margin: auto;
+    padding-left: 30%;
+
+}
+
+.third__section__button {
+    text-align: center;
+    width: 10rem;
+    margin: 10% 0 0 0;
+    background-color: var(--button-background);
+    border: none;
+}
+
+.third__section__img {
+    margin: auto
+}
+
+.fourth__section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.fourth__section__title {
+    font-size: 3rem;
+}
+
+.fourth__section__img {
+    margin: auto;
+}
+
+.fourth__section__text {
+    max-width: 80%;
+}
+
+.pre-footer {
+    margin: 10% auto;
+    text-align: center;
+}
+
+.pre-footer__title {
+    margin: 2% auto;
+}
+
+.pre-footer__images {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.pre-footer__text {
+    margin: 5% auto;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer__alura__logo {
+    margin-bottom: 2%;
+}
+
+.footer__navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3%;
+}
+
+.footer__navigation__li {
+    font-family: var(--font-title-family);
+    text-decoration: none;
+    color: var(--main-color)
+}
+
+.footer__final {
+    max-width: 60%;
+    margin: 2% auto;
+    color: #C0C0C0;
+    font-size: 0.75rem;
+}
