@@ -75,6 +75,7 @@ body{
 .second__section {
     display: grid;
     grid-template-columns: 50% 50%;
+    text-align: center;
     align-items: center;
     margin: 0 auto;
 }
@@ -187,4 +188,93 @@ body{
     margin: 2% auto;
     color: #C0C0C0;
     font-size: 0.75rem;
+}
+
+@media screen and (max-width: 927px){
+
+    .initial__section{
+        background-image: none;
+        display: block;
+        height: 50vh;
+    }
+    .initial__title{
+        margin: 10% auto 0 auto;
+        text-align: center;
+    }
+    .second__section{
+        display: block;
+        margin: 2em
+    }
+    .second__section__img{
+        width: 100%;
+    }
+    .second__section__text{
+        max-width: 100%;
+        text-align: center;
+        gap: 2em;
+    }
+    .second__title{
+        margin: 0.5em 0;
+    }
+    .third__section{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 2em;
+        text-align: center;
+    }
+    .third__section__img{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .third__section__content{
+        max-width: 100%;
+        margin: 0;
+        padding-left: 0;
+    }
+    .third__section__button{
+        text-align: center;
+        width: auto;
+        margin: 10% 0 0 0;
+        background-color: var(--button-background);
+        border: none;
+    }
+    .fourth__section{
+        text-align: center;
+        display: block;
+        margin: 2em;
+    }
+    .fourth__section__img{
+        margin-bottom: 2em;
+        width: 100%;
+    }
+    .fourth__section__content{
+        width: 100%;
+    }
+    .fourth__section__text{
+        max-width: 100%;
+        margin: 1em 0;
+    }
+    .pre-footer__images{
+        display: block;
+    }
+    .footer__navigation{
+        display: block;
+    }
+    .footer__navigation li{
+        margin: 0.5em;
+    }
+    .footer__final{
+        max-width: 100%;
+        margin: 2em ;
+    }
+}
+@media screen and (max-width: 375px) {
+    .initial__section{
+        height: 50%;
+    }
+}
+@media screen and (max-height: 697px){
+    .initial__section{
+        height: 50%;
+    }
 }
